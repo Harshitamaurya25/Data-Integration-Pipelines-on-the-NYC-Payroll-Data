@@ -1,0 +1,9 @@
+{
+	"name": "adls-nyc-ADF-HM",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "021cced6-0714-4731-9392-690a24fc8d6f",
+		"tenantId": "e706f013-463b-4444-bfe0-273ab3eef8c3"
+	}
+}
