@@ -1,0 +1,32 @@
+{
+    "name": "sql_emp_Master",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzureSqlDatabase1",
+            "type": "LinkedServiceReference"
+        },
+        "folder": {
+            "name": "azure sqlDB"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "EmployeeID",
+                "type": "varchar"
+            },
+            {
+                "name": "LastName",
+                "type": "varchar"
+            },
+            {
+                "name": "FirstName",
+                "type": "varchar"
+            }
+        ],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "NYC_Payroll_EMP_MD"
+        }
+    }
+}
